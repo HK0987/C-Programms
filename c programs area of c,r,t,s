@@ -1,0 +1,39 @@
+#include <stdio.h>
+int main()
+{
+   int v=(1,2,3,4);
+   
+   printf("enter your choice:\n 1.AOC \n 2.AOR \n3.AOS\n4.AOT \n");
+   scanf("%d",&v);
+   if(v==1)
+   {
+       int a;
+       float b= 3.14;
+       printf("enter your radius\n");
+       scanf("%d",&a);
+       printf("%f \n your area is",b*a*a);
+    }
+   if(v==2)
+    {
+       int a,b;
+       printf("enter your width & length respectively. \n");
+       scanf("%d%d\n",&a,&b);
+       printf("%d your area is",a*b);
+    }
+    if(v==3)
+    {
+       int static a;
+       printf("enter your side. \n");
+       scanf("%d",&a);
+       printf("%d your area is",a*a);
+    }
+    if(v==4)
+    {
+       int a,b;
+       
+       printf("enter your base and height respectively. \n");
+       scanf("%d%d",&a,&b);
+       printf("%d \n your area is",(a*b)/2);
+    }
+    
+}
