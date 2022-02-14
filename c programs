@@ -1,0 +1,14 @@
+// Addition program
+int main()
+
+{
+    int a,b;
+    printf("enter your no.\n");
+    
+    scanf("%d%d",&a,&b);
+    
+    printf("%d this is your ans\n",a+b);
+    
+
+    return 0;
+}
